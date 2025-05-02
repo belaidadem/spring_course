@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  library-app:
+    build: spring/course
+    ports:
+      - "8080:8080"
+    container_name: library-management-system
